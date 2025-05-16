@@ -1,10 +1,16 @@
-import React from "react"
+import Main from "./components/Main/Main"
+import SideBar from "./components/Sidebar/SideBar"
 
-const App = () => {
+
+function App() {
+  
+
   return (
-    <div>
-      <h1>Hello, World!</h1>
-    </div>
+  <>
+  <SideBar/>
+  <Main/>
+  </>
   )
 }
+
 export default App
